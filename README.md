@@ -2,14 +2,14 @@
 
 This project builds a Moving and Dancing Lego Robot with DC Motors, Light Distance Sensors, and controlled using the UofT Lego Controller attached to the DE1-SoC and Nios V Processor. The robot moves forward, back, left and right, controlled using the key pushbuttons on the DE1-SoC board and also dances with programmed moves to background music, played on the Audio Speakers integrated with the system. The system also uses a VGA Display to interface the robot’s movement, leaving a trail every time the robot moves creating a drawing effect and also having a short animation while the robot is dancing.
 
-![Lego Robot](/files/robot.png)
-![VGA](/files/vga.png)
+![Lego Robot](images/robot.png)
+![VGA](images/vga.png)
 
 To view demonstration, click [here](files/demonstration.mp4).
 ## High Level Overview
 The diagram below shows the high level working of the project. 
 
-![Project Overview][images/overview.png]
+![Project Overview](images/overview.png)
 
 DE1-SoC provides key input to the Nios V system. The FSM controls the robot’s logic, by mapping necessary values to the I/O registers:
 - **GPIO** Pin ```0xFF200060``` maps to the Lego Controller, which controls the Robot’s Motor and Light sensors
