@@ -9,7 +9,7 @@ To view demonstration, click [here](files/demonstration.mp4).
 ## High Level Overview
 The diagram below shows the high level working of the project. 
 
-![Project Overview][files/overview.png]
+![Project Overview][images/overview.png]
 
 DE1-SoC provides key input to the Nios V system. The FSM controls the robot’s logic, by mapping necessary values to the I/O registers:
 - **GPIO** Pin ```0xFF200060``` maps to the Lego Controller, which controls the Robot’s Motor and Light sensors
